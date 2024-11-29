@@ -1,3 +1,9 @@
+/*=========================== FAMÍLIAS DE FONTES =================================*/
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Yanone+Kaffeesatz:wght@200..700&display=swap');
+
+/*================================= CSS GERAL ====================================*/
 body {
   display: flex;
   justify-content: center;
@@ -5,6 +11,15 @@ body {
 
 .container {
   width: 70%;
+}
+
+h1 {
+  font-family: "Yanone Kaffeesatz";
+}
+
+p {
+  text-align: justify;
+  font-family: "Noto Sans";
 }
 
 .div_img_capacitor {
